@@ -23,10 +23,10 @@ offer:
   sold: false
   date_sale: 2023-09-22T14:00:00.000Z
   visits:
-    - from: 2023-08-31T10:00:00.000Z
-      to: 2023-08-31T12:00:00.000Z
-    - from: 2023-09-07T14:00:00.000Z
-      to: 2023-09-07T16:00:00.000Z
+    - date_from: 2023-08-31T10:00:00.000Z
+      date_to: 2023-08-31T12:00:00.000Z
+    - date_from: 2023-09-07T14:00:00.000Z
+      date_to: 2023-09-07T16:00:00.000Z
 gallery:
   - src: /images/uploads/r-architecture-wJAOeXvxudM-unsplash.jpg
   - src: /images/uploads/r-architecture-wDDfbanbhl8-unsplash.jpg

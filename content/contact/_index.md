@@ -17,10 +17,10 @@ blocks:
         Fusce maximus hendrerit eros, sed pulvinar erat pretium eget.
   - type: faq
     items:
-      - title: Duis placerat quam et ante pellentesque
+      - summary: Duis placerat quam et ante pellentesque
         text: Pellentesque et tempor libero, vel euismod nibh. Nunc ut ornare ex, ut hendrerit nunc. Ut lobortis nec sapien sed ultrices. Morbi ut dolor sit amet ligula congue ultrices at ut nisl. Sed vitae, ultricies bibendum leo. Aenean bibendum vulputate facilisis.
-      - title: Cras elementum ultrices diam
+      - summary: Cras elementum ultrices diam
         text: Pellentesque et tempor libero, vel euismod nibh. Nunc ut ornare ex, ut hendrerit nunc. Ut lobortis nec sapien sed ultrices. Morbi ut dolor sit amet ligula congue ultrices at ut nisl. Sed vitae, ultricies bibendum leo. Aenean bibendum vulputate facilisis.
-      - title: Nulla luctus quam
+      - summary: Nulla luctus quam
         text: Pellentesque et tempor libero, vel euismod nibh. Nunc ut ornare ex, ut hendrerit nunc. Ut lobortis nec sapien sed ultrices. Morbi ut dolor sit amet ligula congue ultrices at ut nisl. Sed vitae, ultricies bibendum leo. Aenean bibendum vulputate facilisis.
 ---

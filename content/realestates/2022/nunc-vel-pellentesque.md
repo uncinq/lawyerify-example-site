@@ -24,10 +24,10 @@ offer:
   sold: true
   date_sale: 2023-09-22T14:00:00.000Z
   visits:
-    - from: 2023-08-31T10:00:00.000Z
-      to: 2023-08-31T12:00:00.000Z
-    - from: 2023-09-07T14:00:00.000Z
-      to: 2023-09-07T16:00:00.000Z
+    - date_from: 2023-08-31T10:00:00.000Z
+      date_to: 2023-08-31T12:00:00.000Z
+    - date_from: 2023-09-07T14:00:00.000Z
+      date_to: 2023-09-07T16:00:00.000Z
 ---
 
 Cras consectetur turpis sed pharetra venenatis. Duis vehicula a tortor nec egestas. Vivamus consequat leo justo. Sed eu elit nibh. Vestibulum volutpat et nulla quis dapibus. Nunc vel pellentesque lorem.
