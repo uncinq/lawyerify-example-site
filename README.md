@@ -6,12 +6,12 @@ Edit `config/_default/module.yaml` to install the `lawyerify-example-site` modul
 
 ```yml
 imports:
-  - path: github.com/hugolify/lawyerify-example-site
+  - path: github.com/uncinq/lawyerify-example-site
 ```
 
 ## Documentation
 
-https://github.com/hugolify/hugolify-template/wiki
+https://www.hugolify.io
 
 ## Licensing
 
