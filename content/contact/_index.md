@@ -5,6 +5,9 @@ hero:
   surtitle: Lawyerify
   title: Contactez-nous
   text: Quisque vestibulum, mi eget semper laoreet, odio quam ullamcorper turpis, auctor fermentum magna leo eget nisi. Fusce id imperdiet nunc.
+  ctas:
+    - text: Semper laoreet
+      url: https://www.lawyerify.io/
 blocks:
   - type: map
     background: false
@@ -16,6 +19,8 @@ blocks:
         Duis placerat quam et ante pellentesque, et porttitor lectus sollicitudin.
         Fusce maximus hendrerit eros, sed pulvinar erat pretium eget.
   - type: faq
+    heading:
+      title: Vestibulum sed bibendum lectus.
     items:
       - summary: Duis placerat quam et ante pellentesque
         text: Pellentesque et tempor libero, vel euismod nibh. Nunc ut ornare ex, ut hendrerit nunc. Ut lobortis nec sapien sed ultrices. Morbi ut dolor sit amet ligula congue ultrices at ut nisl. Sed vitae, ultricies bibendum leo. Aenean bibendum vulputate facilisis.

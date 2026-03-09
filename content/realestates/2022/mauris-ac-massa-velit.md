@@ -9,7 +9,7 @@ realestates_categories: Maison
 realestates_sellers: Tribunal judiciaire de Bordeaux
 reference: ID012453687
 image:
-  src: /images/uploads/todd-kent-178j8tJrNlc-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076244/todd-kent-178j8tJrNlc-unsplash_l6hfq4.jpg
 address:
   street: Pl. Pey Berland
   zipcode: 33000
