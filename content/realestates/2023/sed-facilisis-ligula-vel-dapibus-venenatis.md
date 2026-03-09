@@ -9,7 +9,7 @@ realestates_categories: Maison
 realestates_sellers: Tribunal judiciaire de Bayonne
 reference: ID012453687
 image:
-  src: /images/uploads/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076311/digital-marketing-agency-ntwrk-g39p1kDjvSY-unsplash_nxwfhk.jpg
 address:
   street: 1 Av. du Maréchal Leclerc
   zipcode: 64100

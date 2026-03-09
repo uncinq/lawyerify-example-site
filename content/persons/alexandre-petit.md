@@ -12,7 +12,7 @@ description: Ut id fringilla augue, quis gravida felis. Morbi eu lorem nibh.
   magna, id rutrum ipsum leo id massa. Integer egestas risus in ex venenatis
   sodales. Proin in mauris semper, commodo ex sed, laoreet sapien.
 image:
-  src: /images/uploads/linkedin-sales-solutions-pata8xe_ivm-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070980/linkedin-sales-solutions-pata8xe_ivm-unsplash_szc6tv.jpg
 contact:
   email: contact@lawyerify.io
   phone: +33 (0) 1 12 34 56 78

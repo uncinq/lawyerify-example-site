@@ -29,7 +29,7 @@ blocks:
 
       Quisque vestibulum, mi eget semper laoreet, odio quam ullamcorper turpis, auctor fermentum magna leo eget nisi. Fusce id imperdiet nunc. Mauris tincidunt velit sed rhoncus tincidunt.
     image:
-      src: /images/uploads/clarisse-meyer-jku2nnezabi-unsplash.jpg
+      src: https://res.cloudinary.com/uncinq/image/upload/v1773076292/clarisse-meyer-jku2nnezabi-unsplash_pkzpid.jpg
   - type: selected-expertises
     section: expertises
     show_more: false

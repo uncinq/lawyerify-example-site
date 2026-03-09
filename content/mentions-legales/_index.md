@@ -30,4 +30,4 @@ United States
 
 ## Conception
 
-Ce site a été conçu avec {{< blank_link link="https://www.lawyerfy.io" text="Lawyerfy" >}}, une solution open-source Jamstack, qui permet de concevoir un site web le plus écologique possible et au plus proche des critères d'accessibilité. Cette solution est dédiée à l’univers du droit.
+Ce site a été conçu avec {{< blank_link link="https://www.lawyerfy.io" text="Lawyerfy" >}}, une solution open-source, qui permet de concevoir un site web le plus écologique possible et au plus proche des critères d'accessibilité. Cette solution est dédiée à l’univers du droit.

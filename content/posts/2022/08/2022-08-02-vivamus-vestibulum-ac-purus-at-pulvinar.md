@@ -10,7 +10,7 @@ categories: Actualité du cabinet
 posts_expertises:
   - droit-du-travail
 image:
-  src: /images/uploads/clarisse-meyer-jku2nnezabi-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076292/clarisse-meyer-jku2nnezabi-unsplash_pkzpid.jpg
 ---
 
 ## Vivamus tincidunt malesuada lorem eget sodales.

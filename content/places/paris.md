@@ -12,7 +12,7 @@ contact:
   phone: +33 (0) 1 42 34 56 10
   fax: +33 (0) 1 42 34 56 11
 image:
-  src: /images/uploads/alexander-kagan-t9td0zfdtwi-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070949/alexander-kagan-t9td0zfdtwi-unsplash_plx2kd.jpg
   credit: Photo de [Alexander
     Kagan](https://unsplash.com/@allewollenalex?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     sur

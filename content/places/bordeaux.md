@@ -16,7 +16,7 @@ contact:
   linkedin: '#'
   twitter: '#'
 image:
-  src: /images/uploads/vince-gx-wuoeut-emsk-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070986/vince-gx-wuoeut-emsk-unsplash_ojiwnm.jpg
   credit: Photo de [Vince
     Gx](https://unsplash.com/@vincegx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     sur

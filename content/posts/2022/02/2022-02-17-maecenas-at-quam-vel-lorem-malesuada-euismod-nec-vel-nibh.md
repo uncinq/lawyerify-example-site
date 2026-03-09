@@ -14,7 +14,7 @@ categories: Actualité du cabinet
 tags:
   - Lorem
 image:
-  src: /images/uploads/tingey-injury-law-firm-6sl88x150xs-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076244/tingey-injury-law-firm-6sl88x150xs-unsplash_mglwic.jpg
 ---
 
 ## Vestibulum consequat sit amet est eleifend laoreet

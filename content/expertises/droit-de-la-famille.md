@@ -3,7 +3,7 @@ isIndex: false
 title: Droit de la famille
 description: Aliquam gravida posuere lectus ut volutpat. Quisque sed tortor vel tortor tincidunt tristique id nec urna.
 image:
-  src: /images/uploads/tyler-nix-v3dhmb1moxm-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070985/tyler-nix-v3dhmb1moxm-unsplash_fybdeb.jpg
 hero:
   surtitle: Domaine d’expertise
   title: Droit de la famille

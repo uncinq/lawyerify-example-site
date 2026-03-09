@@ -9,7 +9,7 @@ realestates_categories: Maison
 realestates_sellers: Tribunal judiciaire de Bordeaux
 reference: ID012453687
 image:
-  src: /images/uploads/zac-gudakov-wwqZ8CM21gg-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076246/zac-gudakov-wwqZ8CM21gg-unsplash_tupdco.jpg
 address:
   street: Pl. Pey Berland
   zipcode: 33000

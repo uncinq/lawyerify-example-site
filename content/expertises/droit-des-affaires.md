@@ -8,7 +8,7 @@ image:
     Photography](https://unsplash.com/@cytonn_photography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     sur
     [Unsplash](https://unsplash.com/fr/photos/vWchRczcQwM?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-  src: /images/uploads/cytonn-photography-vwchrczcqwm-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070948/cytonn-photography-vwchrczcqwm-unsplash_hrscaj.jpg
 hero:
   surtitle: Domaine d’expertise
   title: Droit des affaires

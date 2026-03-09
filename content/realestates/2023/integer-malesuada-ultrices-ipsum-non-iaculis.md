@@ -9,7 +9,7 @@ realestates_categories: Maison
 realestates_sellers: Tribunal judiciaire de Dax
 reference: ID012453687
 image:
-  src: /images/uploads/r-architecture-wJAOeXvxudM-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076243/r-architecture-wJAOeXvxudM-unsplash_ze3zmf.jpg
 address:
   street: Rue Saint-Pierre
   zipcode: 40100
@@ -28,12 +28,12 @@ offer:
     - date_from: 2023-09-07T14:00:00.000Z
       date_to: 2023-09-07T16:00:00.000Z
 gallery:
-  - src: /images/uploads/r-architecture-wJAOeXvxudM-unsplash.jpg
-  - src: /images/uploads/r-architecture-wDDfbanbhl8-unsplash.jpg
-  - src: /images/uploads/r-architecture-UypLIU-gkK8-unsplash.jpg
-  - src: /images/uploads/r-architecture-U6Ds9z7i3VQ-unsplash.jpg
-  - src: /images/uploads/r-architecture-M6E8SO73MPY-unsplash.jpg
-  - src: /images/uploads/r-architecture-IR6DoHgwUvo-unsplash.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076243/r-architecture-wJAOeXvxudM-unsplash_ze3zmf.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076242/r-architecture-wDDfbanbhl8-unsplash_lkreur.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076241/r-architecture-U6Ds9z7i3VQ-unsplash_ltn0es.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076241/r-architecture-M6E8SO73MPY-unsplash_qcaqjm.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076241/r-architecture-UypLIU-gkK8-unsplash_rp6chr.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076240/r-architecture-IR6DoHgwUvo-unsplash_hofqrh.jpg
 ---
 
 Cras consectetur turpis sed pharetra venenatis. Duis vehicula a tortor nec egestas. Vivamus consequat leo justo. Sed eu elit nibh. Vestibulum volutpat et nulla quis dapibus. Nunc vel pellentesque lorem.

@@ -9,7 +9,7 @@ realestates_categories: Maison
 realestates_sellers: Tribunal judiciaire de Libourne
 reference: ID012453687
 image:
-  src: /images/uploads/webaliser-_TPTXZd9mOo-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076246/webaliser-_TPTXZd9mOo-unsplash_syhtes.jpg
 address:
   street: 42 Pl. Abel Surchamp
   zipcode: 33500

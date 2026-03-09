@@ -12,7 +12,7 @@ description: Suspendisse egestas augue a egestas consectetur. Aliquam interdum
   hendrerit porta. Maecenas at quam vel lorem malesuada euismod nec vel nibh.
   Cras ac facilisis nunc.
 image:
-  src: /images/uploads/michael-dam-mez3pofgs_k-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070980/michael-dam-mez3pofgs_k-unsplash_xuhkgt.jpg
   credit: Photo de [Michael
     Dam](https://unsplash.com/@michaeldam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     sur

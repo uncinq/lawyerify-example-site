@@ -11,7 +11,7 @@ description: Suspendisse egestas augue a egestas consectetur. Aliquam interdum
   hendrerit porta. Maecenas at quam vel lorem malesuada euismod nec vel nibh.
   Cras ac facilisis nunc.
 image:
-  src: /images/uploads/christina-wocintechchat-com-0zx1bdv5bny-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070948/christina-wocintechchat-com-0zx1bdv5bny-unsplash_lhgsyj.jpg
 contact:
   email: contact@lawyerify.io
   phone: +33 (0) 1 12 34 56 78

@@ -11,7 +11,7 @@ persons_expertises:
 description: Aenean bibendum vulputate facilisis. Class aptent taciti sociosqu
   ad litora torquent per conubia nostra, per inceptos himenaeos.
 image:
-  src: /images/uploads/nick-karvounis-jyo_szjgvuw-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070983/nick-karvounis-jyo_szjgvuw-unsplash_drmm63.jpg
 contact:
   email: contact@lawyeriyf.fr
   phone: +33 (0) 1 12 34 56 78

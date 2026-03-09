@@ -3,7 +3,7 @@ isIndex: false
 title: Droit du travail
 description: Aliquam gravida posuere lectus ut volutpat. Quisque sed tortor vel tortor tincidunt tristique id nec urna.
 image:
-  src: /images/uploads/andrew-neel-cckf4tshauw-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070948/andrew-neel-cckf4tshauw-unsplash_vwd4au.jpg
 hero:
   surtitle: Domaine d’expertise
   title: Droit du travail

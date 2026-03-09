@@ -3,7 +3,7 @@ isIndex: false
 title: Droit immobilier
 description: Aliquam gravida posuere lectus ut volutpat. Quisque sed tortor vel tortor tincidunt tristique id nec urna.
 image:
-  src: /images/uploads/josh-olalde-x1p1_ednnok-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773070980/josh-olalde-x1p1_ednnok-unsplash_hoiajg.jpg
   credit: Photo de [Josh
     Olalde](https://unsplash.com/@josholalde?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
     sur

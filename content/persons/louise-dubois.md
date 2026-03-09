@@ -11,7 +11,7 @@ description: Vestibulum vulputate odio eget risus lacinia, eget sollicitudin
   lectus dictum. Donec varius velit nisi, a accumsan odio molestie ut. Donec
   quis tristique elit. Nunc tempus tempor neque a fringilla.
 image:
-  src: /images/uploads/renaldo-matamoro-86jikahf4i8-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076244/renaldo-matamoro-86jikahf4i8-unsplash_qeotwe.jpg
 contact:
   email: jane.doe@lorem.ipsum
 ---

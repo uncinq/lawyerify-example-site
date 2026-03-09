@@ -15,7 +15,7 @@ tags:
 posts_expertises:
   - droit-penal
 image:
-  src: /images/uploads/mikhail-pavstyuk-eky2otrpxdw-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076240/mikhail-pavstyuk-eky2otrpxdw-unsplash_cgukwc.jpg
 ---
 
 ## Vestibulum consequat sit amet est eleifend laoreet

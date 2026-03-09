@@ -10,7 +10,7 @@ categories: Curabitur scelerisque
 tags:
   - Sollicitudin
 image:
-  src: /images/uploads/alex-vasey-tduqe2shhpk-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076291/alex-vasey-tduqe2shhpk-unsplash_rmhnif.jpg
 ---
 
 ## Vestibulum consequat sit amet est eleifend laoreet

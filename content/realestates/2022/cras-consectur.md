@@ -9,7 +9,7 @@ realestates_sellers: Tribunal judiciaire de Bordeaux
 realestates_categories: Appartement
 reference: ID012453687
 image:
-  src: /images/uploads/huy-nguyen-AB-q9lwCVv8-unsplash.jpg
+  src: https://res.cloudinary.com/uncinq/image/upload/v1773076266/huy-nguyen-AB-q9lwCVv8-unsplash_hq6yzo.jpg
 address:
   street: Pl. Pey Berland
   zipcode: 33000
@@ -29,9 +29,9 @@ offer:
     - date_from: 2023-09-07T14:00:00.000Z
       date_to: 2023-09-07T16:00:00.000Z
 gallery:
-  - src: /images/uploads/francesca-tosolini-tHkJAMcO3QE-unsplash.jpg
-  - src: /images/uploads/frames-for-your-heart-FqqiAvJejto-unsplash.jpg
-  - src: /images/uploads/huy-nguyen-AB-q9lwCVv8-unsplash.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076266/francesca-tosolini-tHkJAMcO3QE-unsplash_ydfex1.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076266/frames-for-your-heart-FqqiAvJejto-unsplash_e6oekl.jpg
+  - src: https://res.cloudinary.com/uncinq/image/upload/v1773076266/huy-nguyen-AB-q9lwCVv8-unsplash_hq6yzo.jpg
 ---
 
 Cras consectetur turpis sed pharetra venenatis. Duis vehicula a tortor nec egestas. Vivamus consequat leo justo. Sed eu elit nibh. Vestibulum volutpat et nulla quis dapibus. Nunc vel pellentesque lorem.
