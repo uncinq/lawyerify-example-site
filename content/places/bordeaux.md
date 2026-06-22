@@ -14,7 +14,7 @@ contact:
   email: contact@lawyerify.io
   fax: +33 (0) 1 12 34 56 78
   linkedin: '#'
-  twitter: '#'
+  x: '#'
 image:
   src: https://res.cloudinary.com/uncinq/image/upload/v1773070986/vince-gx-wuoeut-emsk-unsplash_ojiwnm.jpg
   credit: Photo de [Vince
