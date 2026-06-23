@@ -1,7 +1,6 @@
 ---
 isIndex: true
 title: Cabinets
-url: cabinets
 hero:
   surtitle: Lawyerify
   title: Nos cabinets

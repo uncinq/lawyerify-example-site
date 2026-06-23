@@ -6,3 +6,34 @@ module:
       target: content
     - source: data
       target: data
+
+permalinks:
+  page:
+    expertises: /expertises/:slug/
+    persons: /equipe/:slug/
+    places: /cabinets/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    publications: /parutions/:year-:month-:day-:slug/
+  section:
+    expertises: /expertises/
+    persons: /equipe/
+    places: /cabinets/
+    posts: /actualites/
+    publications: /parutions/
+  taxonomy:
+    authors: /actualites/auteurs/
+    categories: /actualites/categories/
+    posts_expertises: /actualites/expertises/
+    publications_categories: /parutions/categories/
+    publications_expertises: /parutions/expertises/
+    publications_persons: /parutions/personnes/
+    tags: /actualites/tags/
+  term:
+    authors: /actualites/auteurs/:slug/
+    categories: /actualites/categories/:slug/
+    posts_expertises: /actualites/expertises/:slug/
+    publications_categories: /parutions/categories/:slug/
+    publications_expertises: /parutions/expertises/:slug/
+    publications_persons: /parutions/personnes/:slug/
+    tags: /actualites/tags/:slug/
+    
