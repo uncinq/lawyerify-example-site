@@ -14,5 +14,5 @@ publications_persons:
   - amel-ben-amar
   - alexandre-petit
 publications_expertises:
-  - droit-penal
+  - droit-pénal
 ---

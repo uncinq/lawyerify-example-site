@@ -12,5 +12,5 @@ publications_persons:
 publications_categories:
   - podcast
 publications_expertises:
-  - droit-penal
+  - droit-pénal
 ---
