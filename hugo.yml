@@ -17,6 +17,7 @@ permalinks:
     places: /cabinets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     publications: /parutions/:year-:month-:day-:slug/
+    realestates: /ventes-immobilieres/:year-:month-:day-:slug/
   section:
     docs: /blocks/
     expertises: /expertises/
@@ -24,6 +25,7 @@ permalinks:
     places: /cabinets/
     posts: /actualites/
     publications: /parutions/
+    realestates: /ventes-immobilieres/
   taxonomy:
     authors: /actualites/auteurs/
     categories: /actualites/categories/
@@ -31,6 +33,9 @@ permalinks:
     publications_categories: /parutions/categories/
     publications_expertises: /parutions/expertises/
     publications_persons: /parutions/personnes/
+    realestates_categories: /ventes-immobilieres/categories/
+    realestates_persons: /ventes-immobilieres/personnes/
+    realestates_sellers: /ventes-immobilieres/organisateur/
     tags: /actualites/tags/
   term:
     authors: /actualites/auteurs/:slug/
@@ -39,5 +44,8 @@ permalinks:
     publications_categories: /parutions/categories/:slug/
     publications_expertises: /parutions/expertises/:slug/
     publications_persons: /parutions/personnes/:slug/
+    realestates_categories: /ventes-immobilieres/categories/:slug/
+    realestates_persons: /ventes-immobilieres/personnes/:slug/
+    realestates_sellers: /ventes-immobilieres/organisateur/:slug/
     tags: /actualites/tags/:slug/
     
