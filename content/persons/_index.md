@@ -1,7 +1,6 @@
 ---
 isIndex: true
 title: Équipe
-url: equipe
 hero:
   surtitle: Lawyerify
   title: Notre équipe

@@ -1,7 +1,6 @@
 ---
 isIndex: true
 title: Expertises
-url: expertises
 hero:
   surtitle: Lawyerify
   title: Nos domaines d’expertise

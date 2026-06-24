@@ -6,17 +6,46 @@ module:
       target: content
     - source: data
       target: data
+    - source: layouts
+      target: layouts
 
-params:
-  _merge: deep
-  expertises:
-    _merge: deep
-    thumbnail:
-      _merge: deep
-      desktop: '636x273'
-  persons:
-    _merge: deep
-    thumbnail:
-      _merge: deep
-      desktop: "306x372"
-      mobile: "300x365"
+permalinks:
+  page:
+    docs: /blocks/:slug/
+    expertises: /expertises/:slug/
+    persons: /equipe/:slug/
+    places: /cabinets/:slug/
+    posts: /actualites/:year-:month-:day-:slug/
+    publications: /parutions/:year-:month-:day-:slug/
+    realestates: /ventes-immobilieres/:year-:month-:day-:slug/
+  section:
+    docs: /blocks/
+    expertises: /expertises/
+    persons: /equipe/
+    places: /cabinets/
+    posts: /actualites/
+    publications: /parutions/
+    realestates: /ventes-immobilieres/
+  taxonomy:
+    authors: /actualites/auteurs/
+    categories: /actualites/categories/
+    posts_expertises: /actualites/expertises/
+    publications_categories: /parutions/categories/
+    publications_expertises: /parutions/expertises/
+    publications_persons: /parutions/personnes/
+    realestates_categories: /ventes-immobilieres/categories/
+    realestates_persons: /ventes-immobilieres/personnes/
+    realestates_sellers: /ventes-immobilieres/organisateur/
+    tags: /actualites/tags/
+  term:
+    authors: /actualites/auteurs/:slug/
+    categories: /actualites/categories/:slug/
+    posts_expertises: /actualites/expertises/:slug/
+    publications_categories: /parutions/categories/:slug/
+    publications_expertises: /parutions/expertises/:slug/
+    publications_persons: /parutions/personnes/:slug/
+    realestates_categories: /ventes-immobilieres/categories/:slug/
+    realestates_persons: /ventes-immobilieres/personnes/:slug/
+    realestates_sellers: /ventes-immobilieres/organisateur/:slug/
+    tags: /actualites/tags/:slug/
+    

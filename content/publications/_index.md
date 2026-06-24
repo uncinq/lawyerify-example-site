@@ -1,7 +1,6 @@
 ---
 isIndex: true
 title: Parutions
-url: parutions
 hero:
   surtitle: Lawyerify
   title: Nos parutions presse

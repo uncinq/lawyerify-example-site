@@ -1,7 +1,6 @@
 ---
 isIndex: true
 title: Actualités
-url: actualites
 hero:
   surtitle: Lawyerify
   title: Notre actualité
