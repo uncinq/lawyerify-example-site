@@ -6,15 +6,19 @@ module:
       target: content
     - source: data
       target: data
+    - source: layouts
+      target: layouts
 
 permalinks:
   page:
+    docs: /blocks/:slug/
     expertises: /expertises/:slug/
     persons: /equipe/:slug/
     places: /cabinets/:slug/
     posts: /actualites/:year-:month-:day-:slug/
     publications: /parutions/:year-:month-:day-:slug/
   section:
+    docs: /blocks/
     expertises: /expertises/
     persons: /equipe/
     places: /cabinets/

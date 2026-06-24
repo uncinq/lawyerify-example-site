@@ -19,3 +19,6 @@ links:
     url: /ventes-immobilieres/
   - title: Contact
     url: /contact/
+  - title: Blocks
+    url: /blocks/
+    is_highlighted: true
