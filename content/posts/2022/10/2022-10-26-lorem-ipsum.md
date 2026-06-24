@@ -4,7 +4,7 @@ draft: false
 date: 2022-10-26T13:35:45.489Z
 authors:
   - alexandre-petit
-  - clement-thomas
+  - clément-thomas
 title: Lorem ipsum
 description: Donec varius velit nisi, a accumsan odio molestie ut. Donec quis
   tristique elit. Nunc tempus tempor neque a fringilla.

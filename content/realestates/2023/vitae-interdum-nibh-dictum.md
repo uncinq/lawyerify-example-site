@@ -5,7 +5,7 @@ title: Vitae interdum nibh dictum
 description: Cras consectetur turpis sed pharetra venenatis. Duis vehicula a tortor nec egestas.
 realestates_persons:
   - alexandre-petit
-  - clement-thomas
+  - clément-thomas
 realestates_categories: Appartement
 realestates_sellers: Tribunal judiciaire de Bordeaux
 reference: ID012453687
