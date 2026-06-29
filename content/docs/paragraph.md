@@ -19,7 +19,7 @@ blocks:
   - type: paragraph
     background: false
     grid: small
-    title: Paragraph
+    title: Paragraph (small)
     text:
       Curabitur nec ipsum sit amet tellus *sagittis* blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -31,7 +31,7 @@ blocks:
     background: false
     grid: small
     offset: center
-    title: Paragraph
+    title: Paragraph (small, offset center)
     text:
       Curabitur nec ipsum [*] sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -39,10 +39,10 @@ blocks:
       sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
       semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
       nec iaculis lorem.
-    cta:
-      blank: false
-      url: '#'
-      text: Button
+    ctas:
+      - blank: false
+        url: '#'
+        text: Button
     notes:
       - text: "C. Poliquin fut un éminent spécialiste canadien du développement de la
           force, auteur de nombreux ouvrages dont The Poliquin Principles -
@@ -51,7 +51,7 @@ blocks:
     background: false
     grid: small
     offset: end
-    title: Paragraph
+    title: Paragraph (small, offset end)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -64,7 +64,7 @@ blocks:
     grid: small
     offset: center
     align: center
-    title: Paragraph
+    title: Paragraph (small, offset center, align center)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. **Duis id congue metus.** In commodo
@@ -75,7 +75,7 @@ blocks:
   - type: paragraph
     background: false
     grid: medium
-    title: Paragraph with notes
+    title: Paragraph with notes (medium, offset start)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit\[\*]. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -92,7 +92,20 @@ blocks:
     background: false
     grid: medium
     offset: center
-    title: Paragraph
+    title: Paragraph (medium, offset center)
+    text:
+      Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
+      cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
+      lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus
+      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
+      semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
+      nec iaculis lorem.
+  - type: paragraph
+    background: true
+    grid: medium
+    align: center
+    offset: center
+    title: Paragraph (medium, center, align center)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -104,7 +117,7 @@ blocks:
     background: false
     grid: medium
     offset: end
-    title: Paragraph
+    title: Paragraph (medium, end)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -139,7 +152,7 @@ blocks:
     background: false
     grid: large
     offset: end
-    title: Paragraph
+    title: Paragraph (large, offset end)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -150,7 +163,7 @@ blocks:
   - type: paragraph
     background: false
     grid: container
-    title: Paragraph
+    title: Paragraph (container)
     text:
       Curabitur nec ipsum sit amet tellus sagittis blandit. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
@@ -158,4 +171,77 @@ blocks:
       sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
       semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
       nec iaculis lorem.
+
+  #  Theme
+  - type: paragraph
+    background: false
+    grid: medium
+    theme: accent
+    title: Paragraph (medium, offset start, theme accent)
+    text:
+      Curabitur nec ipsum [*] sit amet tellus sagittis blandit. Nulla massa nibh,
+      cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
+      lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus
+      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
+      semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
+      nec iaculis lorem.
+    ctas:
+      - blank: false
+        url: '#'
+        text: Button
+      - blank: false
+        url: '#'
+        text: Button
+    notes:
+      - text: "C. Poliquin fut un éminent spécialiste canadien du développement de la
+          force, auteur de nombreux ouvrages dont The Poliquin Principles -
+          1997, 2006"
+  - type: paragraph
+    background: false
+    grid: medium
+    offset: center
+    theme: dark
+    title: Paragraph (medium, offset center, theme dark)
+    text:
+      Curabitur nec ipsum [*] sit amet tellus sagittis blandit. Nulla massa nibh,
+      cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
+      lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus
+      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
+      semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
+      nec iaculis lorem.
+    ctas:
+      - blank: false
+        url: '#'
+        text: Button
+      - blank: false
+        url: '#'
+        text: Button
+    notes:
+      - text: "C. Poliquin fut un éminent spécialiste canadien du développement de la
+          force, auteur de nombreux ouvrages dont The Poliquin Principles -
+          1997, 2006"
+  - type: paragraph
+    background: false
+    grid: medium
+    offset: end
+    theme: light
+    title: Paragraph (medium, offset end, theme light)
+    text:
+      Curabitur nec ipsum [*] sit amet tellus sagittis blandit. Nulla massa nibh,
+      cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
+      lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus
+      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
+      semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
+      nec iaculis lorem.
+    ctas:
+      - blank: false
+        url: '#'
+        text: Button
+      - blank: false
+        url: '#'
+        text: Button
+    notes:
+      - text: "C. Poliquin fut un éminent spécialiste canadien du développement de la
+          force, auteur de nombreux ouvrages dont The Poliquin Principles -
+          1997, 2006"
 ---

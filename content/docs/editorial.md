@@ -16,6 +16,7 @@ hero:
       url: https://raw.githubusercontent.com/Hugolify/hugolify-example-site/refs/heads/main/content/docs/editorial.md
       blank: true
 blocks:
+
   - type: editorial
     direction: ltr
     ctas:
@@ -142,4 +143,45 @@ blocks:
     text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  # Theme
+  - type: editorial
+    direction: rtl
+    grid: container
+    theme: accent
+    surtitle: Surtitle
+    title: Container editorial (theme accent)
+    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
+  - type: editorial
+    direction: rtl
+    grid: container
+    theme: dark
+    surtitle: Surtitle
+    title: Container editorial (theme dark)
+    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
+  - type: editorial
+    direction: rtl
+    grid: container
+    theme: light
+    surtitle: Surtitle
+    title: Container editorial (theme light)
+    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
 ---

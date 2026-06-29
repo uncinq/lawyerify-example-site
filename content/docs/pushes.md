@@ -24,14 +24,17 @@ blocks:
   - type: alert
     state: warning
     text: Be careful to always have sufficient contrast between the text and the image for it to be readable.
+  
+  # CARD
   - type: pushes
     column: 1
     background: false
     heading:
-      title: 1 column
+      title: 1 column with card
       text: Nam eleifend nisl tellus, porta lacinia
     items:
-      - cta:
+      - card: true
+        cta:
           blank: false
           url: '#'
           text: Lorem ipsum
@@ -40,7 +43,160 @@ blocks:
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-          alt: ''
+  
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column with card (align end)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: end
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column with card (align center)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: center
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  # CARD DARKEN
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column with card and media darken
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - darken: true
+        card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column with card (align end) and media darken
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        darken: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: end
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column with card (align center) and media darken
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        darken: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: center
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  # DARKEN
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column and media darken
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: false
+        darken: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column (align end) and media darken
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: false
+        darken: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: end
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  - type: pushes
+    column: 1
+    background: false
+    heading:
+      title: 1 column (align center) and media darken
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: false
+        darken: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: center
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  # CAROUSEL
   - type: pushes
     background: false
     heading:
@@ -49,9 +205,10 @@ blocks:
     layout: carousel
     carousel:
       params:
-        type: loop
         autoplay: true
+        gap: 3rem
         pagination: true
+        perPage: 2
     items:
       - cta:
           blank: false
@@ -82,28 +239,13 @@ blocks:
         offset: center
         title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+
   - type: pushes
-    column: 1
     background: false
     heading:
-      title: 1 column, align center
+      title: Carousel
       text: Nam eleifend nisl tellus, porta lacinia
-    items:
-      - cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        offset: center
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-  - type: pushes
-    column: 1
-    background: false
-    heading:
-      title: 1 column, align center, darken image
-      text: Nam eleifend nisl tellus, porta lacinia
+    layout: carousel
     items:
       - cta:
           blank: false
@@ -115,44 +257,31 @@ blocks:
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-  - type: pushes
-    column: 1
-    background: false
-    heading:
-      title: 1 column, align end
-      text: Nam eleifend nisl tellus, porta lacinia
-    items:
-      - cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        offset: end
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-  - type: pushes
-    column: 1
-    background: false
-    heading:
-      title: 1 column, in card
-      text: Nam eleifend nisl tellus, porta lacinia
-    items:
+          alt: ''
       - cta:
           blank: false
           url: '#'
           text: Lorem ipsum
         card: true
-        offset: start
+        offset: center
         title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          alt: ''
+      - cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: center
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+  
   - type: pushes
     column: 1
     background: false
     heading:
-      title: 1 column, in card, align center
+      title: 1 column (align center)
       text: Nam eleifend nisl tellus, porta lacinia
     items:
       - cta:
@@ -160,29 +289,12 @@ blocks:
           url: '#'
           text: Lorem ipsum
         offset: center
-        card: true
         title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-          alt: ''
-  - type: pushes
-    column: 1
-    background: false
-    heading:
-      title: 1 column, in card, align end
-      text: Nam eleifend nisl tellus, porta lacinia
-    items:
-      - cta:
-          blank: false
-          url: '#'
-          text: Lorem ipsum
-        card: true
-        offset: end
-        title: Lorem ipsum
-        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
-        image:
-          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  # 2 COLUMNS
   - type: pushes
     column: 2
     background: false
@@ -196,6 +308,7 @@ blocks:
           text: Lorem ipsum
         image:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+        darken: true
         offset: start
         title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
@@ -205,13 +318,15 @@ blocks:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
           alt: ''
         offset: start
+        darken: true
         title: Faucibus maximus nunc
         text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc.
+  
   - type: pushes
     column: 2
     background: false
     heading:
-      title: 2 columns, in card
+      title: 2 columns with card
       text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
     items:
       - cta:
@@ -233,6 +348,7 @@ blocks:
         card: true
         title: Faucibus maximus nunc
         text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc.
+  
   - type: pushes
     column: 2
     background: false
@@ -252,11 +368,27 @@ blocks:
         offset: center
         title: Faucibus maximus nunc
         text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc.
+  
+  - type: pushes
+    background: true
+    heading:
+      title: 1 column with legacy background
+      text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
+    items:
+      - cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+  
+  # 2 columns and custom colors
   - type: pushes
     column: 2
     background: false
     heading:
-      title: 2 columns without images and custom background color
+      title: 2 columns without images and custom colors
       text: Curabitur in tortor et odio congue suscipit sit amet quis purus.
     items:
       - cta:
@@ -275,18 +407,94 @@ blocks:
         color: '#000000'
         title: Faucibus maximus nunc
         text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc.
-      - cta:
+
+  # THEME
+  - type: pushes
+    column: 1
+    theme: accent
+    heading:
+      title: 1 column with card (theme accent)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
           blank: false
           url: '#'
           text: Lorem ipsum
-        offset: center
-        background_color: '#56f6bf'
-        color: '#000000'
-        title: Faucibus maximus nunc
-        text: Phasellus tellus purus, pellentesque eu velit vel, faucibus maximus nunc.
-      - background_color: '#A90940'
-        color: '#FFFFFF'
-        offset: end
+        offset: start
         title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  - type: pushes
+    column: 1
+    theme: dark
+    heading:
+      title: 1 column with card (theme dark)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  - type: pushes
+    column: 1
+    theme: light
+    heading:
+      title: 1 column with card (theme light)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  
+  # CARD
+  - type: pushes
+    column: 1
+    grid: full
+    heading:
+      title: 1 column with card (full)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  - type: pushes
+    column: 1
+    grid: medium
+    offset: center
+    heading:
+      title: 1 column with card (medium, offset center)
+      text: Nam eleifend nisl tellus, porta lacinia
+    items:
+      - card: true
+        cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: start
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
 ---
