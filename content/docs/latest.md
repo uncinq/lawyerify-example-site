@@ -19,7 +19,19 @@ blocks:
   - type: latest
     count: 3
     show_more: true
-    background: false
+    ui:
+      align: center
+    section: posts
+    heading:
+      title: Dernières actualités
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - type: latest
+    count: 6
+    show_more: true
+    ui:
+      layout: list
+      offset: center
+      grid: large
     section: posts
     heading:
       title: Dernières actualités
@@ -27,7 +39,9 @@ blocks:
   - type: latest
     count: 3
     show_more: true
-    background: false
+    ui:
+      align: center
+      theme: light
     section: publications
     heading:
       title: Dernières parutions
@@ -35,7 +49,9 @@ blocks:
   - type: latest
     count: 3
     show_more: true
-    background: false
+    ui:
+      align: center
+      theme: dark
     section: realestates
     heading:
       title: Dernières annonces
@@ -43,9 +59,33 @@ blocks:
   - type: latest
     count: 4
     show_more: true
-    background: false
+    ui:
+      align: center
+      theme: light
     section: persons
     heading:
       title: Dernières personnes
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - type: latest
+    count: 4
+    show_more: true
+    ui:
+      layout: list
+      offset: center
+      grid: medium
+      theme: light
+    section: persons
+    heading:
+      title: Dernières personnes
+      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+  - type: latest
+    count: 3
+    show_more: true
+    ui:
+      align: center
+      theme: accent
+    section: publications
+    heading:
+      title: Dernières parutions
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 ---

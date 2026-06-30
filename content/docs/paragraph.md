@@ -32,21 +32,14 @@ blocks:
     grid: small
     offset: center
     title: Paragraph (small, offset center)
-    text:
-      Curabitur nec ipsum [*] sit amet tellus sagittis blandit. Nulla massa nibh,
-      cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
-      lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus
-      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar lectus at
-      semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas
-      nec iaculis lorem.
+    text: Curabitur nec ipsum [*] sit amet tellus sagittis blandit. Nulla massa nibh, cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus sollicitudin eu magna sed interdum [*]. Mauris lobortis pulvinar lectus at semper. Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas nec iaculis lorem.
     ctas:
       - blank: false
         url: '#'
         text: Button
     notes:
-      - text: "C. Poliquin fut un éminent spécialiste canadien du développement de la
-          force, auteur de nombreux ouvrages dont The Poliquin Principles -
-          1997, 2006 "
+      - text: Proin ac nunc urna. In placerat lorem ut tempus interdum. Maecenas nec iaculis lorem.
+      - text: Vivamus sollicitudin eu magna sed interdum.
   - type: paragraph
     background: false
     grid: small
@@ -77,10 +70,10 @@ blocks:
     grid: medium
     title: Paragraph with notes (medium, offset start)
     text:
-      Curabitur nec ipsum sit amet tellus sagittis blandit\[\*]. Nulla massa nibh,
+      Curabitur nec ipsum sit amet tellus sagittis blandit[*]. Nulla massa nibh,
       cursus a arcu et, viverra sodales ipsum. Duis id congue metus. In commodo
       lectus ut ligula elementum, ac commodo tortor rhoncus. Vivamus
-      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar\[\*] lectus at
+      sollicitudin eu magna sed interdum. Mauris lobortis pulvinar[*] lectus at
       semper. Proin ac nunc urna. **In placerat** lorem ut tempus interdum. Maecenas
       nec iaculis lorem.
     notes: 

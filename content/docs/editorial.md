@@ -17,6 +17,7 @@ hero:
       blank: true
 blocks:
 
+  # Classic
   - type: editorial
     direction: ltr
     ctas:
@@ -34,8 +35,25 @@ blocks:
       Donec ut eros sit amet ipsum pulvinar sagittis.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  - type: editorial
+    direction: rtl
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
+    background: false
+    surtitle: Surtitle
+    title: Text on the right, image on the left
+    text: >-
+      Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus
+      nunc.
+
+
+      Donec ut eros sit amet ipsum pulvinar sagittis.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
   
-
+  # Grid
   - type: editorial
     direction: ltr
     grid: small
@@ -46,18 +64,6 @@ blocks:
     text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
-  - type: editorial
-    direction: rtl
-    grid: small
-    offset: center
-    background: false
-    surtitle: Surtitle
-    title: Small editorial
-    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
-    image:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
   - type: editorial
     direction: ltr
     grid: medium
@@ -68,18 +74,6 @@ blocks:
     text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
-  - type: editorial
-    direction: rtl
-    grid: medium
-    offset: center
-    background: true
-    surtitle: Surtitle
-    title: Medium editorial
-    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
-    image:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
   - type: editorial
     direction: ltr
     grid: large
@@ -90,30 +84,8 @@ blocks:
     text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
-  - type: editorial
-    direction: rtl
-    grid: large
-    offset: center
-    background: false
-    surtitle: Surtitle
-    title: Large editorial
-    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
-    image:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
   - type: editorial
     direction: ltr
-    grid: container
-    background: true
-    surtitle: Surtitle
-    title: Container editorial
-    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
-    image:
-      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
-  - type: editorial
-    direction: rtl
     grid: container
     background: true
     surtitle: Surtitle
@@ -132,7 +104,6 @@ blocks:
     text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
     image:
       src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
-
   - type: editorial
     direction: rtl
     grid: full

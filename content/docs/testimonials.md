@@ -19,13 +19,50 @@ hero:
       url: https://splidejs.com/
       blank: true
 blocks:
+
   - type: testimonials
-    background: false
     heading:
-      surtitle: Blandit dapibus erat.
+      surtitle: Grid layout, Container grid
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
-    layout: grid
+    ui:
+      layout: grid
+    items:
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+
+  - type: testimonials
+    heading:
+      surtitle: List layout, Light theme, Container grid
+      title: Duis nisl odio, blandit vel quam eget
+      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+    ui:
+      theme: light
+      layout: list
     items:
       - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
         author:
@@ -55,12 +92,12 @@ blocks:
           text: Vivamus non mauris elit
   
   - type: testimonials
-    background: false
     heading:
-      surtitle: Blandit dapibus erat.
+      surtitle: Carousel, Container grid
       title: Duis nisl odio, blandit vel quam eget
       text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
-    layout: carousel
+    ui:
+      layout: carousel
     carousel:
       params:
         type: loop
@@ -110,4 +147,110 @@ blocks:
           image:
             src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
           text: Vivamus non mauris elit
+
+  - type: testimonials
+    heading:
+      surtitle: Accent, List, Medium Grid, Offset Center
+      title: Duis nisl odio, blandit vel quam eget
+      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+    ui:
+      theme: accent
+      layout: list
+      grid: medium
+      offset: center
+    items:
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  - type: testimonials
+    heading:
+      surtitle: Dark, List, Small Grid, Offset Center
+      title: Duis nisl odio, blandit vel quam eget
+      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+    ui:
+      theme: dark
+      layout: list
+      offset: center
+      grid: small
+    items:
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+
+  - type: testimonials
+    heading:
+      surtitle: Light, Grid, Full width
+      title: Duis nisl odio, blandit vel quam eget
+      text: Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi. Blandit dapibus erat.
+    ui:
+      theme: light
+      layout: grid
+      grid: full
+    items:
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, rhoncus non diam vitae, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          text: Vivamus non mauris elit
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - quote: Nullam pretium eleifend lectus, at semper nulla egestas a. Praesent condimentum nibh erat, eget interdum nisi auctor eget. Vestibulum ex metus, euismod posuere mi.
+        author:
+          title: Aenean commodo
+          image:
+            src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
 ---
