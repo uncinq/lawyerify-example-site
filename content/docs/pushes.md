@@ -198,17 +198,24 @@ blocks:
   
   # CAROUSEL
   - type: pushes
-    background: false
     heading:
       title: Carousel
       text: Nam eleifend nisl tellus, porta lacinia
-    layout: carousel
+    ui:
+      layout: carousel
     carousel:
       params:
         autoplay: true
         gap: 3rem
+        arrow: true
         pagination: true
         perPage: 2
+      responsive:
+        - breakpoints: 640
+          params:
+            arrows: false
+            gap: 0
+            perPage: 1
     items:
       - cta:
           blank: false
@@ -241,11 +248,21 @@ blocks:
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
 
   - type: pushes
-    background: false
     heading:
       title: Carousel
       text: Nam eleifend nisl tellus, porta lacinia
-    layout: carousel
+    ui:
+      layout: carousel
+    carousel:
+      params:
+        arrow: true
+        pagination: true
+      responsive:
+        - breakpoints: 640
+          params:
+            arrows: false
+            gap: 0
+            perPage: 1
     items:
       - cta:
           blank: false
@@ -276,6 +293,49 @@ blocks:
         offset: center
         title: Lorem ipsum
         text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+
+  - type: pushes
+    heading:
+      title: Carousel
+      text: Nam eleifend nisl tellus, porta lacinia
+    ui:
+      layout: carousel
+      grid: medium
+      offset: center
+      theme: light
+    carousel:
+      params:
+        arrow: true
+        pagination: true
+      responsive:
+        - breakpoints: 640
+          params:
+            arrows: false
+            gap: 0
+            perPage: 1
+    items:
+      - cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        offset: center
+        darken: true
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          alt: ''
+      - cta:
+          blank: false
+          url: '#'
+          text: Lorem ipsum
+        card: true
+        offset: center
+        title: Lorem ipsum
+        text: Nam eleifend nisl tellus, porta lacinia lectus sollicitudin non.
+        image:
+          src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+          alt: ''
   
   - type: pushes
     column: 1
@@ -411,7 +471,8 @@ blocks:
   # THEME
   - type: pushes
     column: 1
-    theme: accent
+    ui:
+      theme: accent
     heading:
       title: 1 column with card (theme accent)
       text: Nam eleifend nisl tellus, porta lacinia
@@ -428,7 +489,8 @@ blocks:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
   - type: pushes
     column: 1
-    theme: dark
+    ui:
+      theme: dark
     heading:
       title: 1 column with card (theme dark)
       text: Nam eleifend nisl tellus, porta lacinia
@@ -445,7 +507,8 @@ blocks:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
   - type: pushes
     column: 1
-    theme: light
+    ui:
+      theme: light
     heading:
       title: 1 column with card (theme light)
       text: Nam eleifend nisl tellus, porta lacinia
@@ -464,7 +527,8 @@ blocks:
   # CARD
   - type: pushes
     column: 1
-    grid: full
+    ui:
+      grid: full
     heading:
       title: 1 column with card (full)
       text: Nam eleifend nisl tellus, porta lacinia
@@ -481,8 +545,9 @@ blocks:
           src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
   - type: pushes
     column: 1
-    grid: medium
-    offset: center
+    ui:
+      grid: medium
+      offset: center
     heading:
       title: 1 column with card (medium, offset center)
       text: Nam eleifend nisl tellus, porta lacinia

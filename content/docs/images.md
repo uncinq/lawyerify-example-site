@@ -31,4 +31,42 @@ blocks:
         src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
       - half: false
         src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  - type: images
+    ui:
+      theme: dark
+      grid: small
+      offset: center
+    heading:
+      surtitle: Theme dark, Grid small, Offset center
+      title: Lorem ipsum dolor sit amet.
+      text: Suspendisse sollicitudin dignissim velit quis consequat
+    images:
+      - half: false
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - half: true
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - half: true
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - half: false
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+  - type: images
+    ui:
+      theme: light
+      grid: medium
+      offset: center
+    heading:
+      surtitle: Theme light, Grid medium, Offset center
+      title: Lorem ipsum dolor sit amet.
+      text: Suspendisse sollicitudin dignissim velit quis consequat
+    images:
+      - half: false
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - half: true
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - half: true
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+      - half: false
+        src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+---
+
 ---
