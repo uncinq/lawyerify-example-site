@@ -5,6 +5,15 @@ hero:
   surtitle: Lawyerify
   title: Contactez-nous
   text: Quisque vestibulum, mi eget semper laoreet, odio quam ullamcorper turpis, auctor fermentum magna leo eget nisi. Fusce id imperdiet nunc.
+  video:
+    darken: true
+    background: true
+    mp4: https://57fec860-25f5-48e3-a3f5-d58e0c572935.mdnplay.dev/shared-assets/videos/flower.mp4
+    webm: https://57fec860-25f5-48e3-a3f5-d58e0c572935.mdnplay.dev/shared-assets/videos/flower.webm
+    screenshot: true
+    autoplay: true
+    controls: false
+    loop: true
   ctas:
     - text: Semper laoreet
       url: https://www.lawyerify.io/

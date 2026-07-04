@@ -155,4 +155,43 @@ blocks:
       - blank: false
         text: Button
         url: "#"
+  - type: editorial
+    direction: rtl
+    grid: container
+    theme: highlight
+    surtitle: Surtitle
+    title: Container editorial (theme highlight)
+    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
+  - type: editorial
+    direction: rtl
+    grid: container
+    theme: black
+    surtitle: Surtitle
+    title: Container editorial (theme black)
+    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
+  - type: editorial
+    direction: rtl
+    grid: container
+    theme: white
+    surtitle: Surtitle
+    title: Container editorial (theme white)
+    text: Phasellus **tellus** purus, pellentesque eu velit vel, faucibus maximus nunc.
+    image:
+      src: https://res.cloudinary.com/uncinq/image/upload/v1782294171/anders-jilden-Sc5RKXLBjGg-unsplash_rafux6.jpg
+    ctas:
+      - blank: false
+        text: Button
+        url: "#"
 ---
