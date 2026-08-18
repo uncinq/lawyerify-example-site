@@ -1,0 +1,9 @@
+title: Secondary Menu
+links:
+  - title: Les cabinets
+    url: /cabinets/
+  - title: L’équipe
+    url: /equipe/
+  - blank: false
+    title: Expertises
+    url: /expertises/
